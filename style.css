@@ -1,11 +1,43 @@
-.{
+*{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
- body {
-
+body {
+ background: darkgrey;
 }
-git config --global user.email "carlosviray2004@gmail.com"
-git config --global user.name "viray-carlos-miguel"
+.container{
+background: white;
+max-width: 800px;
+margin: 60px auto;
+height: 1250px;
+padding: 20px;
+box-shadow: 0 2px 20px rgba(0,0,0,0);
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 10px;
+}
+.header h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.img-area {
+    width: 200;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove deepskyblue;
+}
+.img-area img{
+    width: 100%;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
