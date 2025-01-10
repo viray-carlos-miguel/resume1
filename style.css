@@ -29,7 +29,7 @@ box-shadow: 0 2px 20px rgba(0,0,0,0);
 .img-area {
     width: 200px;
     height: 200px;
-    border-radius: 250%;
+    border-radius: 50%;
     overflow: hidden;
     margin: 25px auto;
     border: 15px groove deepskyblue;
