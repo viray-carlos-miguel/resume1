@@ -35,7 +35,7 @@ box-shadow: 0 2px 20px rgba(0,0,0,0);
     border: 15px groove deepskyblue;
 }
 .img-area img{
-    width: 80%;
+    width: 100%;
 }
 .main {
     display: flex;
