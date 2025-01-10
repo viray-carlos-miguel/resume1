@@ -35,9 +35,27 @@ box-shadow: 0 2px 20px rgba(0,0,0,0);
     border: 15px groove deepskyblue;
 }
 .img-area img{
-    width: 100%;
+    width: 150%;
 }
 .main {
     display: flex;
     flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 30px;
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 2;
+}
+h2{
+    background: gray;
+    padding: 15px;
+    color: white;
+    margin: 30px 0;
+    font-size: 20px 0;
+    border-radius: 0 50px 50px 0;
 }
