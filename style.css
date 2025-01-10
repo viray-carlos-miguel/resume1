@@ -27,15 +27,15 @@ box-shadow: 0 2px 20px rgba(0,0,0,0);
     font-weight: 500;
 }
 .img-area {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 250%;
     overflow: hidden;
     margin: 25px auto;
     border: 15px groove deepskyblue;
 }
 .img-area img{
-    width: 50%;
+    width: 250%;
 }
 .main {
     display: flex;
