@@ -72,35 +72,3 @@ h2{
 .right ul li{
     line-height: 2;
 }
-.navbar {
-    display: flex;
-    justify-content: center; /* Centers the navigation links horizontally */
-    align-items: center;
-    height: 60px; /* Navbar height */
-    background-color: #333;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .navbar-links {
-    list-style: none;
-    display: flex;
-    gap: 30px; /* Space between buttons */
-  }
-  
-  .navbar-links li {
-    display: inline;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-links a:hover {
-    color: #f4a261;
-  }
