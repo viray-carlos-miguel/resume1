@@ -25,12 +25,12 @@ body, html {
 
 .description {
   font-size: 100px;
-  margin-bottom: 20px; /* Space between the paragraph and button */
-  font-size: 20px; /* Set the font size */
-  color:antiquewhite; /* Set the text color */
-  max-width: 80%; /* Optional: Prevents the paragraph from becoming too wide */
-  word-wrap: break-word; /* Ensures long words wrap if necessary */
-  line-height: 1.5; /* Optional: Adjust line height for readability */
+  margin-bottom: 20px; 
+  font-size: 20px;
+  color:antiquewhite;
+  max-width: 80%; 
+  word-wrap: break-word; 
+  line-height: 1.5; 
   align-items: center;
 }
 
@@ -58,11 +58,11 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed; /* Fixes the navbar at the top */
-  top: 0; /* Positions it at the top */
-  width: 100%; /* Ensures the navbar spans the full width */
-  z-index: 1000; /* Keeps it above other elements */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for better visibility */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 .navbar-container {
   display: flex;
